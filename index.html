@@ -26,7 +26,8 @@
     <header class="header">
       <div class="container container_header">
         <nav class="nav">
-          <a href="./index.html" class="logo">Web<span class="studio">Studio</span></a>
+
+          <a href="./index.html" class="logo_web">Web<span class="logo_studio">Studio</span></a>
 
           <ul class="header_main">
             <li class="header_main_nav">
@@ -41,12 +42,18 @@
           </ul>
         </nav>
 
-        <address style="margin-left: auto">
-          <ul class="header_address">
-            <li class="header_address_list">
+        <button class="mobile_button_header" type="button">
+          <svg class="mobile_button_header_icon" width="24px" height="24px">
+            <use href="./images/icons.svg#icon_burger"></use>
+          </svg>
+        </button>
+
+        <address class="header_address">
+          <ul class="header_address_list">
+            <li class="header_address_list_item">
               <a href="mailto:info@devstudio.com" class="address">info@devstudio.com</a>
             </li>
-            <li class="header_address_list">
+            <li class="header_address_list_item">
               <a href="tel:+110001111111" class="address">+11 (000) 111-11-11</a>
             </li>
           </ul>
@@ -601,5 +608,95 @@
         </form>
       </div>
     </div>
+
+    <!-- mobile_menu -->
+
+    <div class="mobile_menu">
+      <div class="container">
+
+        <button class="mobile_menu_close_button" type="button">
+          <svg class="mobile_menu_close_button_icon" width="24px" height="24px">
+            <use href="./images/icons.svg#icon_close">
+            </use>
+          </svg>
+        </button>
+
+        <nav>
+          <ul>
+            <li><a href="">Studio</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contacts</a></li>
+         </ul>
+        </nav>
+
+        <address class="header_address">
+          <ul class="header_address_list">
+            <li class="header_address_list_item">
+              <a href="mailto:info@devstudio.com" class="address">info@devstudio.com</a>
+            </li>
+            <li class="header_address_list_item">
+              <a href="tel:+110001111111" class="address">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+
+        <div>
+          <ul class="footer_images">
+            <li class="footer_svg_baza">
+              <a class="footer_link" href="">
+                <svg width="24" height="24" class="container_footer_svg">
+                  <use class="footer_svg_icons" href="./images/icons.svg#icon_instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer_svg_baza">
+              <a class="footer_link" href="">
+                <svg width="24" height="24" class="container_footer_svg">
+                  <use class="footer_svg_icons" href="./images/icons.svg#icon_twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer_svg_baza">
+              <a class="footer_link" href="">
+                <svg width="24" height="24" class="container_footer_svg">
+                  <use class="footer_svg_icons" href="./images/icons.svg#icon_facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer_svg_baza">
+              <a class="footer_link" href="">
+                <svg width="24" height="24" class="container_footer_svg">
+                  <use class="footer_svg_icons" href="./images/icons.svg#icon_linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+<div class="modal_window_checkbox">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              class="modal_window_checkbox_input visually-hidden"
+            />
+            <label for="user-privacy" class="modal_window_checkbox_label">
+                <span class="modal_window_checkbox_label_span">
+                  
+                  <svg width="10" height="8" class="modal_window_checkbox_label_span_svg">
+                    <use href="./images/icons.svg#icon_close"></use></svg>
+                </span>
+                I accept the terms and conditions of the
+              <a href="" class="modal_window_checkbox_label_span_a">Privacy Policy</a>
+            </label>
+          </div>
+
   </body>
 </html>
